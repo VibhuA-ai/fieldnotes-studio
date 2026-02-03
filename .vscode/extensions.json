@@ -4,6 +4,7 @@
     "ms-python.vscode-pylance",
     "ms-python.debugpy",
     "charliermarsh.ruff",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "github.copilot"
   ]
 }

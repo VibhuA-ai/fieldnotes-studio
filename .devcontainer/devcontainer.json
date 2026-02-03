@@ -10,7 +10,8 @@
         "ms-python.debugpy",
         "ms-toolsai.jupyter",
         "charliermarsh.ruff",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "github.copilot"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",

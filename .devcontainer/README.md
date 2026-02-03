@@ -12,6 +12,7 @@ This directory contains the configuration for GitHub Codespaces and VS Code Dev 
   - Jupyter notebooks support
   - Ruff formatter and linter
   - Code spell checker
+  - **GitHub Copilot** (AI pair programmer)
 - **Port Forwarding**: Port 8501 for Streamlit
 - **Auto Setup**: Dependencies are automatically installed from `requirements.txt`
 

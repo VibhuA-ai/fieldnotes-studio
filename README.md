@@ -3,26 +3,20 @@
 <!-- Note: Update the repository path in the badge URL if you fork this template -->
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Takeoff-Techworks/python-starter)
 
-A comprehensive starter template for building web applications with Streamlit, featuring data visualization, interactive components, and a multi-page app structure.
+A simple starter template for building web applications with Streamlit. Perfect for beginners and quick prototypes!
 
 ## ✨ Features
 
-- 📊 **Data Visualization**: Interactive charts and graphs using Plotly
-- 🎨 **Modern UI**: Clean, responsive design with custom styling
-- 📱 **Multi-Page App**: Organized structure with multiple pages
-- 🔧 **Rich Components**: Wide variety of Streamlit widgets and components
-- 📈 **Data Analysis**: Built-in data analysis and statistics tools
-- ⚙️ **Settings Page**: Customizable user preferences and configuration
-- 📥 **Data Export**: Download data in CSV and JSON formats
+- 🎨 **Simple & Clean**: Easy-to-understand code structure
+- 🔧 **Interactive Components**: Basic Streamlit widgets and components
+- 📱 **Responsive Layout**: Works on different screen sizes
+- 🚀 **GitHub Copilot Ready**: Pre-configured with Copilot extension
 - 🎯 **Best Practices**: Follows Streamlit best practices and conventions
 
 ## 🛠️ Tech Stack
 
 - **Python 3.8+**
 - **Streamlit** - Web app framework
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computing
-- **Plotly** - Interactive visualizations
 - **python-dotenv** - Environment variable management
 
 ## 📋 Prerequisites
@@ -100,11 +94,9 @@ The app will open automatically in your default browser at `http://localhost:850
 python-starter/
 │
 ├── app.py                      # Main application file
-├── pages/                      # Additional pages
-│   ├── 1_📊_Data.py           # Data analysis page
-│   └── 2_⚙️_Settings.py       # Settings page
 ├── requirements.txt            # Python dependencies
 ├── .env.example               # Environment variables template
+├── .devcontainer/             # GitHub Codespaces configuration
 ├── .gitignore                 # Git ignore file
 └── README.md                  # Project documentation
 ```
@@ -115,51 +107,22 @@ python-starter/
 
 The main page includes:
 - Welcome section with user input
-- Data visualization demos
-- Interactive charts with Plotly
-- Various Streamlit components showcase
+- Basic interactive components (text input, sliders, buttons)
+- Simple demonstrations of Streamlit widgets
 - About section with documentation
-
-### Data Analysis Page
-
-Navigate to the "📊 Data" page to:
-- Generate and visualize sample datasets
-- Analyze data with interactive charts
-- View statistical summaries
-- Export data in multiple formats
-
-### Settings Page
-
-Navigate to the "⚙️ Settings" page to:
-- Customize appearance and theme
-- Manage user profile
-- Configure notifications
-- Export/import settings
 
 ## 🎨 Customization
 
-### Adding New Pages
+### Adding Features
 
-To add a new page to your Streamlit app:
+You can easily extend this starter by adding:
+- More interactive widgets
+- Custom styling with CSS
+- Additional pages (create a `pages/` directory)
+- Data visualization libraries (Plotly, Matplotlib)
+- Database connections
 
-1. Create a new Python file in the `pages/` directory
-2. Name it with a number prefix and emoji: `3_🎯_YourPage.py`
-3. Add your Streamlit code to the file
-
-Example:
-
-```python
-import streamlit as st
-
-st.set_page_config(page_title="Your Page", page_icon="🎯")
-
-st.title("🎯 Your New Page")
-st.write("Your content here...")
-```
-
-### Modifying Styles
-
-Custom CSS can be added in any page using:
+Example of adding custom CSS:
 
 ```python
 st.markdown("""
@@ -175,21 +138,9 @@ st.markdown("""
 
 Edit the `.env` file to configure:
 - App name and version
-- Database connections
 - API keys
 - Debug mode
 - Server settings
-
-## 📊 Example Data Visualizations
-
-The starter includes examples of:
-- Line charts
-- Bar charts
-- Scatter plots
-- Pie charts
-- Heatmaps
-- Box plots
-- Histograms
 
 ## 🔧 Development
 
@@ -197,7 +148,9 @@ The starter includes examples of:
 
 #### GitHub Codespaces (Cloud-Based)
 - **Zero Setup**: Click the badge at the top of this README
-- **Pre-configured**: Python 3.12, all extensions, and dependencies
+- **Pre-configured**: Python 3.12, all extensions including GitHub Copilot
+- **Instant**: Start coding in seconds
+- **Free Tier**: 60 hours/month for GitHub Free users
 - **Instant**: Start coding in seconds
 - **Free Tier**: 60 hours/month for GitHub Free users
 
