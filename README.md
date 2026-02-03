@@ -151,8 +151,6 @@ Edit the `.env` file to configure:
 - **Pre-configured**: Python 3.12, all extensions including GitHub Copilot
 - **Instant**: Start coding in seconds
 - **Free Tier**: 60 hours/month for GitHub Free users
-- **Instant**: Start coding in seconds
-- **Free Tier**: 60 hours/month for GitHub Free users
 
 #### VS Code Dev Containers (Local)
 - **Consistent**: Same environment as Codespaces
