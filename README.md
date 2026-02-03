@@ -42,6 +42,8 @@ The fastest way to get started is using GitHub Codespaces:
 5. Once ready, run:
    ```bash
    streamlit run app.py
+   # Or use the quick start script:
+   ./start.sh
    ```
 6. Click the pop-up notification to open the app in your browser
 
