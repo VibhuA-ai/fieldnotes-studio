@@ -1,5 +1,7 @@
 # 🚀 Python Streamlit Starter
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Takeoff-Techworks/python-starter)
+
 A comprehensive starter template for building web applications with Streamlit, featuring data visualization, interactive components, and a multi-page app structure.
 
 ## ✨ Features
@@ -29,14 +31,32 @@ A comprehensive starter template for building web applications with Streamlit, f
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Quick Start with GitHub Codespaces (Recommended) ⚡
+
+The fastest way to get started is using GitHub Codespaces:
+
+1. Click the **Code** button on the repository
+2. Select the **Codespaces** tab
+3. Click **Create codespace on main**
+4. Wait for the environment to build (dependencies install automatically)
+5. Once ready, run:
+   ```bash
+   streamlit run app.py
+   ```
+6. Click the pop-up notification to open the app in your browser
+
+That's it! No local setup required. 🎉
+
+### Local Development Setup
+
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Takeoff-Techworks/python-starter.git
 cd python-starter
 ```
 
-### 2. Create a Virtual Environment (Recommended)
+#### 2. Create a Virtual Environment (Recommended)
 
 ```bash
 # On Windows
@@ -48,13 +68,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install Dependencies
+#### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure Environment Variables (Optional)
+#### 4. Configure Environment Variables (Optional)
 
 ```bash
 # Copy the example environment file
@@ -63,7 +83,7 @@ cp .env.example .env
 # Edit .env with your configuration
 ```
 
-### 5. Run the Application
+#### 5. Run the Application
 
 ```bash
 streamlit run app.py
@@ -169,6 +189,25 @@ The starter includes examples of:
 - Histograms
 
 ## 🔧 Development
+
+### Development Environments
+
+#### GitHub Codespaces (Cloud-Based)
+- **Zero Setup**: Click the badge at the top of this README
+- **Pre-configured**: Python 3.12, all extensions, and dependencies
+- **Instant**: Start coding in seconds
+- **Free Tier**: 60 hours/month for GitHub Free users
+
+#### VS Code Dev Containers (Local)
+- **Consistent**: Same environment as Codespaces
+- **Offline**: Work without internet after initial setup
+- **Requirement**: Docker Desktop installed
+- **Setup**: Open in VS Code and select "Reopen in Container"
+
+#### Traditional Local Setup
+- **Manual**: Follow the local development setup above
+- **Flexible**: Use any editor or IDE
+- **Requirement**: Python 3.8+ installed locally
 
 ### Running in Development Mode
 
