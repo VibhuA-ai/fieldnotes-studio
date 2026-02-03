@@ -1,32 +1,10 @@
-# 🚀 Python Streamlit Starter
+# Python Streamlit Starter
 
 <!-- Note: Update the repository path in the badge URL if you fork this template -->
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Takeoff-Techworks/python-starter)
 
-A simple starter template for building web applications with Streamlit. Perfect for beginners and quick prototypes!
 
-## ✨ Features
-
-- 🎨 **Simple & Clean**: Easy-to-understand code structure
-- 🔧 **Interactive Components**: Basic Streamlit widgets and components
-- 📱 **Responsive Layout**: Works on different screen sizes
-- 🚀 **GitHub Copilot Ready**: Pre-configured with Copilot extension
-- 🎯 **Best Practices**: Follows Streamlit best practices and conventions
-
-## 🛠️ Tech Stack
-
-- **Python 3.8+**
-- **Streamlit** - Web app framework
-- **python-dotenv** - Environment variable management
-
-## 📋 Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-
-## 🚀 Getting Started
-
-### Quick Start with GitHub Codespaces (Recommended) ⚡
+### Quick Start with GitHub Codespaces (Recommended)
 
 The fastest way to get started is using GitHub Codespaces:
 
@@ -42,8 +20,6 @@ The fastest way to get started is using GitHub Codespaces:
    ```
 6. Click the pop-up notification to open the app in your browser
 
-That's it! No local setup required. 🎉
-
 ### Local Development Setup
 
 #### 1. Clone the Repository
@@ -54,6 +30,11 @@ cd python-starter
 ```
 
 #### 2. Create a Virtual Environment (Recommended)
+
+1. In VSCode open command palette with Ctrl/Command + Shift + P
+1. In search bar type environment
+1. Select Python > Create Environment > venv > Create new
+1. Open a new terminal with Ctrl/Cmd + Shift + C to verify environment is activated
 
 ```bash
 # On Windows
@@ -84,55 +65,11 @@ cp .env.example .env
 
 ```bash
 streamlit run app.py
+# Run with file watcher for auto-reload
+streamlit run app.py --server.runOnSave true
 ```
 
 The app will open automatically in your default browser at `http://localhost:8501`
-
-## 📁 Project Structure
-
-```
-python-starter/
-│
-├── app.py                      # Main application file
-├── requirements.txt            # Python dependencies
-├── .env.example               # Environment variables template
-├── .devcontainer/             # GitHub Codespaces configuration
-├── .gitignore                 # Git ignore file
-└── README.md                  # Project documentation
-```
-
-## 📖 Usage
-
-### Main Page (app.py)
-
-The main page includes:
-- Welcome section with user input
-- Basic interactive components (text input, sliders, buttons)
-- Simple demonstrations of Streamlit widgets
-- About section with documentation
-
-## 🎨 Customization
-
-### Adding Features
-
-You can easily extend this starter by adding:
-- More interactive widgets
-- Custom styling with CSS
-- Additional pages (create a `pages/` directory)
-- Data visualization libraries (Plotly, Matplotlib)
-- Database connections
-
-Example of adding custom CSS:
-
-```python
-st.markdown("""
-    <style>
-    .your-custom-class {
-        /* Your styles here */
-    }
-    </style>
-    """, unsafe_allow_html=True)
-```
 
 ### Environment Variables
 
@@ -142,50 +79,12 @@ Edit the `.env` file to configure:
 - Debug mode
 - Server settings
 
-## 🔧 Development
-
-### Development Environments
-
-#### GitHub Codespaces (Cloud-Based)
-- **Zero Setup**: Click the badge at the top of this README
-- **Pre-configured**: Python 3.12, all extensions including GitHub Copilot
-- **Instant**: Start coding in seconds
-- **Free Tier**: 60 hours/month for GitHub Free users
-
-#### VS Code Dev Containers (Local)
-- **Consistent**: Same environment as Codespaces
-- **Offline**: Work without internet after initial setup
-- **Requirement**: Docker Desktop installed
-- **Setup**: Open in VS Code and select "Reopen in Container"
-
-#### Traditional Local Setup
-- **Manual**: Follow the local development setup above
-- **Flexible**: Use any editor or IDE
-- **Requirement**: Python 3.8+ installed locally
-
-### Running in Development Mode
-
-```bash
-# Run with file watcher for auto-reload
-streamlit run app.py --server.runOnSave true
-```
-
-### Installing Additional Dependencies
-
-```bash
-pip install <package-name>
-pip freeze > requirements.txt
-```
-
-## 📚 Resources
+## Resources
 
 - [Streamlit Documentation](https://docs.streamlit.io)
-- [Streamlit Gallery](https://streamlit.io/gallery)
-- [Streamlit Community Forum](https://discuss.streamlit.io)
-- [Plotly Documentation](https://plotly.com/python/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
 
-## 🤝 Contributing
+
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -193,14 +92,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 💡 Tips
-
-- Use `st.cache_data` for caching data computations
-- Use `st.cache_resource` for caching resource-heavy operations
-- Organize complex apps into multiple pages
-- Use columns and containers for better layouts
-- Add custom CSS for enhanced styling
-- Use session state for maintaining data across reruns
 
 ## 🐛 Troubleshooting
 
@@ -229,11 +120,3 @@ deactivate
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate      # On Windows
 ```
-
-## 📧 Support
-
-For questions or issues, please open an issue on GitHub or contact the maintainers.
-
----
-
-**Made with ❤️ using Streamlit**
