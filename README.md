@@ -1,5 +1,6 @@
 # 🚀 Python Streamlit Starter
 
+<!-- Note: Update the repository path in the badge URL if you fork this template -->
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Takeoff-Techworks/python-starter)
 
 A comprehensive starter template for building web applications with Streamlit, featuring data visualization, interactive components, and a multi-page app structure.
